@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(33, 45, 62);
+    color: whitesmoke;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+section p {
+    text-align: justify;
+}
+
+.logo {
+    width: 30vw;
+}
+
+.figure {
+    text-align: center;
+}
+
+.col-sm-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    color: black;
+}
+
+#go-top {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    z-index: 99;
+    font-size: 32px;
+    color: lightgray;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#go-top:hover {
+    color: gray;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(34, 37, 41);
+    text-align: center;
+    margin-top: 70px;
+}
+
+#success-message {
+    display: none;
+}
+
+form {
+    width: 60vw;
+}
+
+.btn-primary {
+    background-color: rgb(34, 37, 41);
+    border-color: rgb(34, 37, 41);
+}
+
+.btn-primary:hover {
+    background-color: rgb(57, 77, 104);
+    border-color: rgb(57, 77, 104);
+}
+
+@media all and (max-width: 768px) {
+    .logo {
+        width: 70vw;
+    }
+
+    .img-fluid {
+        width: 90vw;
+    }
+
+    .card {
+        width: 85vw !important;
+        margin-bottom: 15px !important;
+    }
+
+    form {
+        width: 90vw;
+    }
+}
